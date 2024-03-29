@@ -1,0 +1,24 @@
+{
+    "manifest_version":3,
+    "name":"ChronoTracker",
+    "description":"Time is of the essence. Let ChronoTracker be your guide in the race against the clock.",
+    "version":"1.0.0",
+    "icons": {
+        "16": "images/stopwatch-2-16.png",
+        "32": "images/stopwatch-2-32.png",
+        "48": "images/stopwatch-2-48.png",
+        "128": "images/stopwatch-2-128.png"
+      },
+    "permissions":[
+        "storage", 
+        "contextMenus",
+        "alarms",
+        "notifications"
+        
+    ],
+    "action":{},
+    "background":{
+        "service_worker": "service_worker.js"
+        
+    }
+}
